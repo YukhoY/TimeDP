@@ -1,0 +1,35 @@
+name: timedp
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.8
+  - pip=20.3
+  - cudatoolkit=11.7
+  - torchvision==0.14.0
+  - numpy=1.19.2
+  - scikit-learn
+  - h5py
+  - ca-certificates
+  - openssl
+  - torchaudio==0.13.0
+  - pytorch==1.13.0
+  - certifi
+  - pytorch-cuda=11.7
+  - packaging=21.3
+  - setuptools=69.5.1
+  - statsmodels
+  - jupyter
+  - matplotlib
+  - wandb
+  - seaborn
+  - einops
+  - tqdm
+  - scipy
+  - pandas
+  - omegaconf
+  - mkl=2023
+  - pytorch-lightning=1.4.2
+  - torchmetrics=0.7.3
+prefix: /opt/conda/envs/tsgen
